@@ -19,7 +19,10 @@ public class Principal {
             GeradorDeArquivo geradorDeArquivo = new GeradorDeArquivo();
             geradorDeArquivo.salvaJson(novoEndereco);
         } catch (RuntimeException | IOException e){
+            System.out.println("Erro encontrado: ");
             System.out.println(e.getMessage());
+        }
+        finally {
             System.out.println("Finalizando a aplicação!");
             System.out.println("####################################");
         }
