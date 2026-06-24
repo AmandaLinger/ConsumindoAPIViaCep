@@ -9,4 +9,4 @@
 
 </br>
 </br>
-<p>Resumo: O programa inicia perguntado o cep que deseja consultar, realiza conexão http para buscar e retornar dados, imprime no terminal a resposta e cria um novo arquivo com as inforações em um objeto json.</p>
+<p>Resumo: O programa inicia perguntado o cep que deseja consultar, realiza conexão http para buscar e retornar dados, imprime no terminal a resposta e cria um novo arquivo com as informações em um objeto json.</p>
